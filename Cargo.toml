@@ -1,0 +1,15 @@
+[package]
+name = "slog-cadence"
+version = "0.1.0"
+authors = ["Nick Pillitteri"]
+description = "Statsd drain for slog-rs"
+keywords = ["slog", "logging", "log", "metrics", "statsd"]
+license = "MPL-2.0"
+documentation = "https://docs.rs/slog-cadence"
+homepage = "https://github.com/slog-rs/slog-cadence"
+repository = "https://github.com/slog-rs/cadence"
+readme = "README.md"
+
+[dependencies]
+slog = "1.1.0"
+cadence = "0.11.0"
